@@ -20,5 +20,9 @@
     CGFloat topCap = self.size.height * 0.5f;
     return [self stretchableImageWithLeftCapWidth:leftCap topCapHeight:topCap];
 }
-
++ (UIImage *)resizedImageWithName:(NSString *)name left:(CGFloat)left top:(CGFloat)top
+{
+    UIImage *image = [self imageNamed:name];
+    return [image stretchableImageWithLeftCapWidth:image.size.width * left topCapHeight:image.size.height * top];
+}
 @end
