@@ -1,14 +1,14 @@
 //
-//  frame.m
+//  UIView+frame.m
 //  JYLibrary
 //
 //  Created by nero on 14-10-26.
 //  Copyright (c) 2014年 姜沂. All rights reserved.
 //
 
-#import "frame.h"
+#import "UIView+frame.h"
 
-@implementation frame
+@implementation UIView (frame)
 
 - (void)setX:(CGFloat)x
 {

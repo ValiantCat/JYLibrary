@@ -1,5 +1,5 @@
 //
-//  frame.h
+//  UIView+frame.h
 //  JYLibrary
 //
 //  Created by nero on 14-10-26.
@@ -8,7 +8,7 @@
 
 #import <UIKit/UIKit.h>
 
-@interface frame : UIView
+@interface UIView (frame)
 @property (assign, nonatomic) CGFloat x;
 @property (assign, nonatomic) CGFloat y;
 @property (assign, nonatomic) CGFloat width;
