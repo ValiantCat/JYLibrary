@@ -9,10 +9,12 @@
 #import <UIKit/UIKit.h>
 
 @interface UIView (frame)
-@property (assign, nonatomic) CGFloat x;
-@property (assign, nonatomic) CGFloat y;
-@property (assign, nonatomic) CGFloat width;
-@property (assign, nonatomic) CGFloat height;
-@property (assign, nonatomic) CGSize size;
-@property (assign, nonatomic) CGPoint origin;
+@property (nonatomic, assign) CGFloat x;
+@property (nonatomic, assign) CGFloat y;
+@property (nonatomic, assign) CGFloat width;
+@property (nonatomic, assign) CGFloat height;
+@property (nonatomic, assign) CGSize size;
+@property (nonatomic, assign) CGPoint origin;
+@property (nonatomic, assign) CGFloat centerX;
+@property (nonatomic, assign) CGFloat centerY;
 @end
